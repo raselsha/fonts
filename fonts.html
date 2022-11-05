@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Bad+Script&family=Bai+Jamjuree&family=Barlow+Condensed&family=Cabin&family=Cardo&family=Chakra+Petch&family=Courgette&family=Dancing+Script&family=Didact+Gothic&family=Dongle&family=Epilogue&family=Familjen+Grotesk&family=Fresca&family=Genos&family=Grand+Hotel&family=Griffy&family=Gruppo&family=Handlee&family=Hi+Melody&family=Josefin+Sans&family=Jura&family=La+Belle+Aurore&family=League+Spartan&family=Lobster+Two&family=Marck+Script&family=Maven+Pro&family=Michroma&family=NTR&family=Outfit&family=Padauk&family=Patrick+Hand&family=Play&family=Pompiere&family=Questrial&family=Rajdhani&family=Rochester&family=Saira&family=Syne&family=Tajawal&family=Titillium+Web:wght@300&family=Varela+Round&family=Zen+Kurenaido&display=swap"
+        rel="stylesheet">
+
+    <style>
+        body {
+            width: 400px;
+            margin: auto;
+        }
+        
+        select {
+            padding: 10px;
+            text-align: center;
+            width: 100%;
+            font-size: 12px;
+            margin: 10px 0;
+        }
+        
+        .f1 {
+            font-family: 'Abel', sans-serif;
+        }
+        
+        .f2 {
+            font-family: 'Bad Script', cursive;
+        }
+        
+        .f3 {
+            font-family: 'Bai Jamjuree', sans-serif;
+        }
+        
+        .f4 {
+            font-family: 'Barlow Condensed', sans-serif;
+        }
+        
+        .f5 {
+            font-family: 'Cabin', sans-serif;
+        }
+        
+        .f6 {
+            font-family: 'Cardo', serif;
+        }
+        
+        .f7 {
+            font-family: 'Chakra Petch', sans-serif;
+        }
+        
+        .f8 {
+            font-family: 'Courgette', cursive;
+        }
+        
+        .f9 {
+            font-family: 'Dancing Script', cursive;
+        }
+        
+        .f10 {
+            font-family: 'Didact Gothic', sans-serif;
+        }
+        
+        .f11 {
+            font-family: 'Dongle', sans-serif;
+        }
+        
+        .f12 {
+            font-family: 'Epilogue', sans-serif;
+        }
+        
+        .f13 {
+            font-family: 'Familjen Grotesk', sans-serif;
+        }
+        
+        .f14 {
+            font-family: 'Fresca', sans-serif;
+        }
+        
+        .f15 {
+            font-family: 'Genos', sans-serif;
+        }
+        
+        .f16 {
+            font-family: 'Grand Hotel', cursive;
+        }
+        
+        .f17 {
+            font-family: 'Griffy', cursive;
+        }
+        
+        .f18 {
+            font-family: 'Gruppo', cursive;
+        }
+        
+        .f19 {
+            font-family: 'Handlee', cursive;
+        }
+        
+        .f20 {
+            font-family: 'Hi Melody', cursive;
+        }
+        
+        .f21 {
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        
+        .f22 {
+            font-family: 'Jura', sans-serif;
+        }
+        
+        .f23 {
+            font-family: 'La Belle Aurore', cursive;
+        }
+        
+        .f25 {
+            font-family: 'League Spartan', sans-serif;
+        }
+        
+        .f26 {
+            font-family: 'Lobster Two', cursive;
+        }
+        
+        .f27 {
+            font-family: 'Marck Script', cursive;
+        }
+        
+        .f28 {
+            font-family: 'Maven Pro', sans-serif;
+        }
+        
+        .f29 {
+            font-family: 'Michroma', sans-serif;
+        }
+        
+        .f30 {
+            font-family: 'NTR', sans-serif;
+        }
+        
+        .f31 {
+            font-family: 'Outfit', sans-serif;
+        }
+        
+        .f32 {
+            font-family: 'Padauk', sans-serif;
+        }
+        
+        .f33 {
+            font-family: 'Patrick Hand', cursive;
+        }
+        
+        .f34 {
+            font-family: 'Play', sans-serif;
+        }
+        
+        .f35 {
+            font-family: 'Pompiere', cursive;
+        }
+        
+        .f36 {
+            font-family: 'Questrial', sans-serif;
+        }
+        
+        .f37 {
+            font-family: 'Rajdhani', sans-serif;
+        }
+        
+        .f38 {
+            font-family: 'Rochester', cursive;
+        }
+        
+        .f39 {
+            font-family: 'Saira', sans-serif;
+        }
+        
+        .f40 {
+            font-family: 'Syne', sans-serif;
+        }
+        
+        .f41 {
+            font-family: 'Tajawal', sans-serif;
+        }
+        
+        .f42 {
+            font-family: 'Titillium Web', sans-serif;
+        }
+        
+        .f43 {
+            font-family: 'Varela Round', sans-serif;
+        }
+        
+        .f44 {
+            font-family: 'Zen Kurenaido', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <select name="" id="fontList">
+        <option value="" class="">Select font</option>
+        <option value="f1" class="f1">Style 1</option>
+        <option value="f2" class="f2">Style 2</option>
+        <option value="f3" class="f3">Style 3</option>
+        <option value="f4" class="f4">Style 4</option>
+        <option value="f5" class="f5">Style 5</option>
+        <option value="f6" class="f6">Style 6</option>
+        <option value="f7" class="f7">Style 7</option>
+        <option value="f8" class="f8">Style 8</option>
+        <option value="f9" class="f9">Style 9</option>
+        <option value="f10" class="f10">Style 10</option>
+        <option value="f11" class="f11">Style 11</option>
+        <option value="f12" class="f12">Style 12</option>
+        <option value="f13" class="f13">Style 13</option>
+        <option value="f14" class="f14">Style 14</option>
+        <option value="f15" class="f15">Style 15</option>
+        <option value="f16" class="f16">Style 16</option>
+        <option value="f17" class="f17">Style 17</option>
+        <option value="f18" class="f18">Style 18</option>
+        <option value="f19" class="f19">Style 19</option>
+        <option value="f20" class="f20">Style 20</option>
+        <option value="f21" class="f21">Style 21</option>
+        <option value="f22" class="f22">Style 22</option>
+        <option value="f23" class="f23">Style 23</option>
+        <option value="f24" class="f24">Style 24</option>
+        <option value="f25" class="f25">Style 25</option>
+        <option value="f26" class="f26">Style 26</option>
+        <option value="f27" class="f27">Style 27</option>
+        <option value="f28" class="f28">Style 28</option>
+        <option value="f29" class="f29">Style 29</option>
+        <option value="f30" class="f30">Style 30</option>
+        <option value="f31" class="f31">Style 31</option>
+        <option value="f32" class="f32">Style 32</option>
+        <option value="f33" class="f33">Style 33</option>
+        <option value="f34" class="f34">Style 34</option>
+        <option value="f35" class="f35">Style 35</option>
+        <option value="f36" class="f36">Style 36</option>
+        <option value="f37" class="f37">Style 37</option>
+        <option value="f38" class="f38">Style 38</option>
+        <option value="f39" class="f39">Style 39</option>
+        <option value="f40" class="f40">Style 40</option>
+        <option value="f41" class="f41">Style 41</option>
+        <option value="f42" class="f42">Style 42</option>
+        <option value="f43" class="f43">Style 43</option>
+        <option value="f44" class="f44">Style 44</option>        
+    </select>
+    <h3 id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ducimus ipsum commodi vero corrupti ipsam enim magnam quis! Doloremque minus ad nihil nemo dignissimos, voluptatem accusamus ex? Soluta, id nobis?</h3>
+    <script>
+        var fonts = document.getElementById('fontList');
+        var text = document.getElementById('text');
+        fonts.addEventListener("change", function() {
+
+            className = fonts.options[fonts.selectedIndex];
+
+            text.removeAttribute('class');
+            text.classList.add(className.value);
+        });
+    </script>
+</body>
+
+</html>
